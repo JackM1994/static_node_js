@@ -1,0 +1,57 @@
+{
+    "projects":[
+        {
+        "id": "1",
+        "project_name": "Random Quote Generator",
+        "description": "The webpage displays a random quote, the user can change quote by selecting the 'show another quote' button",
+        "technologies": ["JavaScript", "CSS", "HTML"
+        ],
+        "live_link":  "https://jackm1994.github.io/1.random_quote_generator/",
+        "github_link": "https://github.com/JackM1994/1.random_quote_generator",
+        "image_urls": ["/static/images/random_main.png", "/static/images/random.png", "/static/images/random_purple.png"]
+      
+    },
+
+    {
+        "id": "2",
+        "project_name": "List Pagination And Filtering",
+        "description": "A webpage that seperates students into pages and is filtered using a search bar",
+        "technologies": ["JavaScript", "CSS", "HTML"],
+        "live_link": "https://jackm1994.github.io/2.-list_pagination/",
+        "github_link": "https://github.com/JackM1994/2.-list_pagination",
+        "image_urls": ["/static/images/students_main.png", "/static/images/student_directory.png", "/static/images/students_search.png"]
+    },
+
+    {
+        "id": "3",
+        "project_name": "Interactive Form",
+        "description": "Interactive Form, that uses JavaScript and JQuery for various validation inlcuding name and email and payment",
+        "technologies": ["JavaScript", "JQuery", "HTML", "CSS"],
+        "live_link": "https://jackm1994.github.io/3.interactive_form/",
+        "github_link": "https://github.com/JackM1994/3.interactive_form",
+        "image_urls": ["/static/images/form_main.png", "/static/images/form_errors.png"]
+
+    },
+
+    {
+        "id": "4",
+        "project_name": "OPP Game Show",
+        "descriptions": "An app that display a phrase or word guessing game. The user has only 5 lives to guess correctly. If the user wins a message is displayed congratulating the user while also having the option to play again. The same goes if the user loses, a message is displayed letting the user know he or she has lost with an option to play again. ",
+        "technologies": ["JavaScript", "HTML", "CSS"],
+        "live_link": "https://jackm1994.github.io/4.opp_game_show/",
+        "github_link": "https://github.com/JackM1994/4.opp_game_show",
+        "image_urls": ["/static/images/game_main.png", "/static/images/correct_answers.png", "/static/images/you_win.png", "/static/images/wrong_answers.png" ,"/static/images/you_lose.png"]
+
+    },
+    {
+        "id": "5",
+        "project_name": "Public API Request",
+        "descriptions": "An app that display an employee directory. Using randomUser API to collect employee information. The app displays 12 random users ",
+        "technologies": ["JavaScript", "HTML", "CSS"],
+        "live_link": "https://jackm1994.github.io/5.public_api_request/",
+        "github_link": "https://github.com/JackM1994/5.public_api_request",
+        "image_urls": ["/static/images/employee_main.png", "/static/images/employee_directory.png", "/static/images/employee_overlay.png"]
+    }
+
+    ]
+}
