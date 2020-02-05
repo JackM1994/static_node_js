@@ -29,11 +29,19 @@ app.get('/project/:id', (req,res,next) =>{
 });
 
 //Error Handler
+app.use((req, res, next) => {
+    const err = new Error('Page not found!');
+    console.log("uh oh! The page you are looking for cannot be found.");
+    err.status = 404;
+    next(err);
+  });
+  
+// renders the error page
 app.use((err, req, res, next) => {
-  res.locals.error = err;
-  console.log(err);
-  res.render('error');
+    res.locals.error = err;
+    res.render('error', err);
 });
+
 app.listen(3000, ()=>{
     console.log('The application is running on localhost 3000')
 })
