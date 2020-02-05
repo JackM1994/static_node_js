@@ -7,6 +7,19 @@
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackM1994/static_node_js.git"
+  },
+  "author": "Jack Morris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackM1994/static_node_js/issues"
+  },
+  "homepage": "https://github.com/JackM1994/static_node_js#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+
 }
